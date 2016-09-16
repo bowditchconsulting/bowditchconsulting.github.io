@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Bowditch Consulting</title>
+		<title>{{page.title}}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -14,11 +14,8 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1></h1>
-				<p></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+			{{ content }}
+    		</div><!-- /.container -->      
 		<footer>
     		<ul>
         		<li><a href="mailto:fred@bowditchconsulting.com">email</a></li>
